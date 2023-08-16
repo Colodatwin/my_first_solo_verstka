@@ -1,0 +1,24 @@
+.getInTouch {
+  background: url(../img/bg-2.jpg) 0 0/ cover no-repeat;
+  // .getInTouch__content
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  // .getInTouch__title
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120% ;
+    letter-spacing: 0.15px;
+    margin-bottom: 35px;
+    max-width: 350px;
+    text-align: center;
+  }
+  // .getInTouch__btn
+  &__btn {
+  }
+
+}

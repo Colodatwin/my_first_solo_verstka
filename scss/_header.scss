@@ -1,0 +1,47 @@
+.header {
+  padding: 40px 0px 70px 0px;
+  height: 100vh;
+  background: url(../img/header-bg.jpg) 0 0 / cover no-repeat;
+  // .header__wrapper
+  &__wrapper {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+  // .header__logo
+  &__logo {
+  }
+  // .header__body
+  &__body {
+    flex: 1 1 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  // .header__title
+  &__title {
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    letter-spacing: 5.709px;
+  }
+  // .header__subtitle
+  &__subtitle {
+    font-weight: 600;
+  }
+  // .header__link
+  &__link {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3.7px;
+  }
+  @media (max-width: 768px) {
+    &__title {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+  }
+}
